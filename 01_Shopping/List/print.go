@@ -10,7 +10,7 @@ func increment() int {
 }
 
 func PrintVar() {
-	fmt.Println(increment(), ".", a)
+	fmt.Println(increment(), a)
 	fmt.Println(increment(), b)
 	fmt.Println(increment(), c)
 	fmt.Println(increment(), d)
