@@ -9,8 +9,7 @@ func increment() int {
 	return x
 }
 
-func PrintVar() { // func to print the list
-	fmt.Println(Name)
+func PrintVar() {
 	fmt.Println(increment(), "%v \n", a)
 	fmt.Println(increment(), "%v \n", b)
 	fmt.Println(increment(), "%v \n", c)
