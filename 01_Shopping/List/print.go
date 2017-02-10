@@ -10,16 +10,16 @@ func increment() int {
 }
 
 func PrintVar() {
-	fmt.Println(increment(), "%v \n", a)
-	fmt.Println(increment(), "%v \n", b)
-	fmt.Println(increment(), "%v \n", c)
-	fmt.Println(increment(), "%v \n", d)
-	fmt.Println(increment(), "%v \n", e)
-	fmt.Println(increment(), "%v \n", f)
-	fmt.Println(increment(), "%v \n", g)
-	fmt.Println(increment(), "%v \n", h)
-	fmt.Println(increment(), "%v \n", i)
-	fmt.Println(increment(), "%v \n", j)
-	fmt.Println(increment(), "%v \n", k)
+	fmt.Println(increment(), ".", a)
+	fmt.Println(increment(), b)
+	fmt.Println(increment(), c)
+	fmt.Println(increment(), d)
+	fmt.Println(increment(), e)
+	fmt.Println(increment(), f)
+	fmt.Println(increment(), g)
+	fmt.Println(increment(), h)
+	fmt.Println(increment(), i)
+	fmt.Println(increment(), j)
+	fmt.Println(increment(), k)
 
 }
